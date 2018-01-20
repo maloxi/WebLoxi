@@ -73,11 +73,12 @@ namespace WebApplication4
 
         protected void Button4_Click(object sender, EventArgs e)
         {
+            if (TextBox3.Text=="1234")
+            {
 
+                Email();
 
-            Email();
-
-
+            }
 
         }
 

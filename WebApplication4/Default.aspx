@@ -33,6 +33,10 @@
         <asp:Label ID="Label2" runat="server" Text="IP" ForeColor="White"></asp:Label>
          <br/>
         <hr />
+                <hr />
+
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+          <hr />
           <hr />
   <%--      <asp:Chart ID="Chart1" runat="server" DataSourceID="SqlDataSource1">
             <Series>
