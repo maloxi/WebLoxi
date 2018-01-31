@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Raspberry.aspx" />
     <None Include="Properties\PublishProfiles\aspify web deploy.pubxml" />
     <None Include="Properties\PublishProfiles\aspify.pubxml" />
     <None Include="Properties\PublishProfiles\forpsi.pubxml" />
@@ -93,6 +94,13 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Raspberry.aspx.cs">
+      <DependentUpon>Raspberry.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Raspberry.aspx.designer.cs">
+      <DependentUpon>Raspberry.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="images\" />

@@ -1,6 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication4.Default" %>
-
-<%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Raspberry.aspx.cs" Inherits="WebApplication4.WebForm1" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
@@ -31,8 +29,8 @@
 		
 		<div id="menu">
 			<ul>
-				<li><a href="#" class="active">Úvod</a></li>
-				<li><a href="Raspberry.aspx">Raspberry</a></li>
+				<li><a href="Default.aspx">Úvod</a></li>
+				<li><a href="#" class="active">Raspberry</a></li>
 				<li><a href="#">Photos</a></li>
 				<li><a href="#">Resources</a></li>
 				<li><a href="#">Contact Me</a></li>
@@ -51,52 +49,52 @@
 			<div id="columnA_2columns">
 		
 				<h3>A free design by NodeThirtyThree</h3>
-				
+				<img src="images/pic.gif" class="floatTL" alt="Something scenic" />
 
+				<p>
+					Nonzero<sup>1.0</sup> is a free, lightweight, tableless, fluid/fixed W3C-valid 
+					website design by <a href="http://www.nodethirtythree.com/">NodeThirtyThree Design</a>. 
+					The scenic photo to the left is from <a href="http://www.pdphoto.org/">PDPhoto</a>. 
+					You're free to dissect, manipulate and use this design to your heart's content. We only ask 
+					that you link back to <a href="http://www.nodethirtythree.com/">our site</a> in some 
+					way. If you find this design useful, feel free to let us know :)
+				</p>
 				
+				<p>
+					You can find more of our free work at this site or <a href="http://www.nodethirtythree.com/">our site</a>,
+					or some of our commercial work on <a href="http://www.4templates.com/?aff=n33">4Templates.com</a>,
+					a commercial website template site.
+				</p>
 				
-			
 				
 				<br class="clear" />
 			
 				<div class="post">
 				
-								
-					    <form id="form1" runat="server">
-                            <div>
-                                <asp:Label ID="Label1" runat="server" Text="Jmeno"></asp:Label>
-       
-
-                                   <br/>
-                                <asp:TextBox ID="TextBox1" runat="server" Text ="1"></asp:TextBox>
-                             <br/>
-                                <asp:Button ID="Button1" runat="server" Text="cislo" OnClick="Button1_Click" />
-       
-                                <asp:Button ID="Button2" runat="server" Text="+1" OnClick="Button2_Click" />
-                                <asp:Button ID="Button3" runat="server" Text="-1" OnClick="Button3_Click" />
-                                  <br/>
-                                <hr />
-                                  <br/>
-                                <asp:TextBox ID="TextBox2" runat="server" Width="381px"></asp:TextBox>
-        
-                                <asp:Button ID="Button4" runat="server" Text="Odeslat SMS" OnClick="Button4_Click" />
-                                  <br/>
-                                <br/>
-                                    <hr />
-                                <asp:Label ID="Label2" runat="server" Text="IP" ForeColor="White"></asp:Label>
-                                 <br/>
-                                <hr />
-                                        <hr />
-
-                                <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
-                                  <hr />
-                                  <hr />
-
-                            </div>
-       
-                        </form>
+					<h3>Specifics about Nonzero1.0</h3>
+					<ul class="post_info">
+						<li class="date">Posted by <a href="#">enks</a> on 11.14.2006</li>
+						<li class="comments"><a href="#">44 comments</a></li>
+					</ul>					
 					
-
+					<p>
+						It also includes several alternate page layouts:
+						<a href="index.html">three column (fixed width)</a>,
+						<a href="index_2column.html">two column (fixed width)</a>,
+						<a href="index_columnless.html">columnless (fixed width)</a>, 
+						<a href="index_fluid.html">three column (fluid width)</a>,
+						<a href="index_fluid_2column.html">two column (fluid width)</a>,
+						and <a href="index_fluid_columnless.html">columnless (fluid width)</a>.
+						You can also change the width of the fixed width layouts if needed. See the <em>style.css</em>
+						file for more thought-provoking details.
+					</p>
+					<p>
+						And now for a profound quote by the great philosopher, <a href="http://www.lipsum.com/">Lorem Ipsum</a>:
+						Mauris neque adipiscing lacus, ac hendrerit	augue odio in mi. In ultrices enim. Curabitur a massa sed risus 
+						viverra mollis. Proin dapibus mi porttitor nisi. Donec eget nibh dictum magna iaculis pharetra.
+						Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas at ligula. Donec tellus. Etiam sem.
+						Sed quis urna. Duis tempor elit ac nulla. And don't you forget it.
+					</p>
 
 				</div>
 		
